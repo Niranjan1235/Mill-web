@@ -1,0 +1,94 @@
+.contact-us-container {
+  padding: 20px;
+  width: 100%; /* Full width */
+  min-height: 100vh; /* Full screen height */
+  box-sizing: border-box; /* Include padding in width calculation */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6; /* Optional: Light background color */
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.contact-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: gray;
+}
+
+.contact-details {
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 800px; /* Limit the content width for better readability */
+  text-align: center;
+}
+
+.company-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 20px; /* Add padding to the box */
+  background-color: #ffffff; /* Box background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  margin-bottom: 20px; /* Add spacing below the box */
+}
+
+.address-section {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center-align content */
+  margin-top: 10px;
+  flex-wrap: wrap; /* Wrap content for smaller screens */
+}
+
+.location-icon {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.address-text {
+  font-size: 16px;
+}
+
+.contact-info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between; /* Spread the items to opposite sides */
+  width: 100%;
+  max-width: 800px; /* Maintain alignment with the rest of the section */
+}
+
+.contact-info .contact-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.map-section {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.map-iframe {
+  width: 100%;
+  max-width: px; /* Limit width for large screens */
+  height: 300px;
+  border: none;
+  border-radius: 8px; /* Optional: Rounded corners for aesthetics */
+}
